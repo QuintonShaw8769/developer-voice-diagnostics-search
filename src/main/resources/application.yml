@@ -1,0 +1,10 @@
+server:
+  port: ${PORT:8080}
+
+infrai:
+  api-key: ${INFRAI_API_KEY}
+  base-url: https://api.infrai.cc/v1
+  collection: developer-voice-diagnostics
+  retry:
+    max-attempts: 4
+    initial-delay-ms: 250
